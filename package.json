@@ -1,0 +1,32 @@
+{
+  "name": "desafio-backend-03-dindin-dbeifood",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAraujo1306/desafio-backend-03-dindin-dbeifood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasAraujo1306/desafio-backend-03-dindin-dbeifood/issues"
+  },
+  "homepage": "https://github.com/LucasAraujo1306/desafio-backend-03-dindin-dbeifood#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
